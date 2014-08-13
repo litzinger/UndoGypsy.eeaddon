@@ -10,7 +10,7 @@ $plugin_info = array(
 This script is provided as is. There is no warranty or guarantee this will
 work for all environments. Please do not contact me regarding support for this
 script. It was just the result of several hours of my work to upgrade a single
-site from EE 1 to EE 2 and I'm being a generous and sharing it.
+site from EE 1 to EE 2 and I'm being generous and sharing it.
 
 This script will first undo Gypsy by creating seaparate field groups and cloning 
 existing custom fields, migrating data accordingly, then un-installing Gypsy.
@@ -30,7 +30,7 @@ In that template put the following:
     {exp:undo_gypsy:run}
 
 Hit the following URL in your browser when you are ready to run the upgrade.
-    http://www.site.com/upgrade/ee1.php
+    http://www.site.com/upgrade/ee1
     
 When it is done, it will dump an array mapping the old field names to the
 new ones it will create. You'll then need to update your templates with the
